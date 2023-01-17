@@ -1,6 +1,4 @@
-<h1 align=center>
-<img src="./wallpaper.png">
-</h1>
+## Habits
 
 #### Server commands
 
