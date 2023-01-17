@@ -7,6 +7,8 @@
 
 - Install dependencies
   `npm i`
+- Run migrations
+  `npx prisma migrate dev`
 - Prisma Client
   `npx prima studio`
 - Running the app
@@ -18,3 +20,10 @@
   `npm i`
 - Running the app
   `npm run dev`
+
+#### Mobile commands
+
+- Install dependencies
+  `npm i`
+- Running the app
+  `npm start`
