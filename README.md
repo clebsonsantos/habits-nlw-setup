@@ -8,11 +8,14 @@
 - Install dependencies
   `npm i`
 - Run migrations
-  `npx prisma migrate dev`
+  `npm run prisma:migrations`
 - Prisma Client
   `npx prima studio`
 - Running the app
   `npm run dev`
+
+##### Database Relationships
+![Image Caption](ERD.svg)
 
 #### Web commands
 
