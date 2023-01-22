@@ -43,7 +43,12 @@ export function New () {
         <Text className="mt-6 text-white font-semibold text-base">
           Qual seu comprometimento?
         </Text>
-        <TextInput className="h-12 pl-4 rounded-lg mt-3 bg-zinc-800 text-white focus:border-2 focus:border-green-600"/>
+        <TextInput 
+          placeholder="Exercícios, dormir bem..." 
+          placeholderTextColor={colors.zinc[400]}
+          className="h-12 pl-4 rounded-lg mt-3 bg-zinc-800 text-white focus:border-2 focus:border-green-600"
+        
+        />
        
         <Text className="mt-4 mb-3 text-white font-semibold text-base">
           Qual a recorrência?
