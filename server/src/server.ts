@@ -6,8 +6,10 @@ const app = Fastify()
 app.register(cors)
 app.register(appRoutes)
 
+const PORT = 3333
 app.listen({
-  port: 3333
+  port: PORT
 }).then(() => {
   console.log('[FASTFY] SERVER RUNNING') 
+  console.log('[FASTFY] PROCESS PORT '.concat(PORT.toString())) 
 })
