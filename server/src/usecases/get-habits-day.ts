@@ -35,7 +35,7 @@ export async function getHabitsDay(request: FastifyRequest) {
   
   const completedHabits = day?.dayHabits.map(habit => {
     return habit.habit_id
-  })
+  }) ?? []
 
   return {
     possibleHabits,
