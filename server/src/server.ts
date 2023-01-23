@@ -8,8 +8,9 @@ app.register(appRoutes)
 
 const PORT = 3333
 app.listen({
-  port: PORT
-}).then(() => {
+  port: PORT,
+  host: '0.0.0.0'
+}).then((url) => {
   console.log('[FASTFY] SERVER RUNNING') 
-  console.log('[FASTFY] PROCESS PORT '.concat(PORT.toString())) 
+  console.log('[FASTFY] PROCESS URL '.concat(url)) 
 })
